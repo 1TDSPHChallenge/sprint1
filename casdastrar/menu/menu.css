@@ -14,4 +14,21 @@ body, html {
     align-items: center;
   }
 
+  .app-header, .app-footer {
+    background: #589acaff;
+    padding: 30px;
+    width: 85%;
+    display: flex;
+    height: 15px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+    justify-content: center;
+  }
+
+  .logo {
+    height: 126px;
+    width: 200px;
+  }
+
  
