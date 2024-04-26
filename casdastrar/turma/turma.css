@@ -22,4 +22,15 @@ body, html {
     color: white;
   }
 
+  .team-title {
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
   
