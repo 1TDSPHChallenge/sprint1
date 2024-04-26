@@ -25,3 +25,13 @@ body, html {
     border: 1px solid #000;
     justify-content: center;
   }
+
+  .logo {
+    height: 126px;
+    width: 200px;
+  }
+
+  .header-title {
+    flex-grow: 1;
+    text-align: center;
+  }
