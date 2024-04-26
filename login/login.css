@@ -68,3 +68,24 @@ button {
     right: 30px;
     top: 30px;
 }
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+header button[type="submit"] {
+    float: right;
+    color: rgb(0, 0, 0); 
+    background-color: #ffffff;
+    width: 90px; 
+    height: 40px; 
+    font-size: 20px; 
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+header a {
+    width: 100%;
+}
