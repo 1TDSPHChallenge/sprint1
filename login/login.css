@@ -54,6 +54,7 @@ footer {
     padding-left: 20px;
     font-size: 30px;
 }
+
 button {
     width: 294px;
     height: 76px;
@@ -63,11 +64,13 @@ button {
     font-size: 35px;
     cursor: pointer;
 }
+
 .info-icon {
     position: absolute;
     right: 30px;
     top: 30px;
 }
+
 header {
     display: flex;
     justify-content: space-between; 
