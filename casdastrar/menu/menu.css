@@ -7,3 +7,11 @@ body, html {
     color: white;
   }
 
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+  }
+
+ 
