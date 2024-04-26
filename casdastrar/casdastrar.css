@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #023C66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SeoulNamsan CB', sans-serif;
+}
+
+.registration-container {
+    width: 1440px;
+    height: 1200px;
+    position: relative;
+}
+
+.header, .footer {
+    position: absolute;
+    width: 100%;
+    background-color: #589ACA;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.header {
+    height: 141px;
+    top: 0;
+    background-image: url('./assets/cabecalho.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    position: absolute;
+    bottom: -40px; 
+    width: 100%;
+    height: 147px;
+    background-image: url('./assets/rodape.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-title {
+    color: #FFFFFF;
+    font-size: 70px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.registration-form {
+    position: absolute;
+    top: 294px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 540px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.submit-button {
+    position: absolute;
+    width: 294px;
+    height: 76px;
+    bottom: -75px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #589ACA;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s; }
+    
+
+    .info-icon {
+        position: absolute;
+        top: 30px;
+        left: 30px; 
+        width: 56px;
+        height: 46px;
+        background-image: url('./assets/sobre.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+    
+    
+    .botao {
+        background-color: #589ACA; 
+        color: white; 
+        border: none; 
+        border-radius: 5px; 
+        padding: 10px 20px; 
+        font-size: 16px; 
+        cursor: pointer;}
