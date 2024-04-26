@@ -54,3 +54,12 @@ footer {
     padding-left: 20px;
     font-size: 30px;
 }
+button {
+    width: 294px;
+    height: 76px;
+    background-color: #589ACA;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    font-size: 35px;
+    cursor: pointer;
+}
