@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'SeoulNamsan CB', Arial, sans-serif;
+    background-color: #023c66;
+    color: white;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+  }
