@@ -76,3 +76,10 @@ margin: 50px 0;
   .chat-button {
     align-self: flex-end;
   }
+
+  @media (min-width: 1440px) {
+    .app-footer {
+      position: absolute;
+      bottom: 0;
+    }
+  }
