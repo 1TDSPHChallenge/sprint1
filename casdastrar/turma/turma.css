@@ -72,6 +72,7 @@ body, html {
     border-radius: 10px;
   }
 
+
   .team-footer {
     margin-top: 20px;
   }
@@ -86,6 +87,9 @@ body, html {
     cursor: pointer;
     border-radius: 10px;
   }
+
+
+  
 
   .team-member .Grupo {
     width: 500px; 
