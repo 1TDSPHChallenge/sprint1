@@ -36,4 +36,14 @@ body, html {
     text-align: center;
   }
 
- 
+  .info-button {
+    background: #ffffff; 
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    padding: 10px 20px; 
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
