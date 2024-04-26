@@ -74,4 +74,33 @@ body, html {
     border: none;
     background-color: #FFFFFF;
 }
+.submit-button {
+    position: absolute;
+    width: 294px;
+    height: 76px;
+    bottom: -75px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #589ACA;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s; }
+    
+
+    .info-icon {
+        position: absolute;
+        top: 30px;
+        left: 30px; 
+        width: 56px;
+        height: 46px;
+        background-image: url('./assets/sobre.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
