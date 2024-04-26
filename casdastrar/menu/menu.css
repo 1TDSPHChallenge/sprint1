@@ -31,4 +31,9 @@ body, html {
     width: 200px;
   }
 
+  .header-title {
+    flex-grow: 1;
+    text-align: center;
+  }
+
  
