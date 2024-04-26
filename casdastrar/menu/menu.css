@@ -35,3 +35,20 @@ body, html {
     flex-grow: 1;
     text-align: center;
   }
+
+  .info-button {
+    background: #ffffff; 
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    padding: 10px 20px; 
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.config-title {
+font-size: 70px;
+line-height: 70px;
+margin: 50px 0;
+}
