@@ -63,3 +63,8 @@ button {
     font-size: 35px;
     cursor: pointer;
 }
+.info-icon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
