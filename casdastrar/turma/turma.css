@@ -26,3 +26,17 @@ body, html {
     font-size: 70px;
     margin: 0;
   }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .team-member {
+    background-color: #589ACB;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
